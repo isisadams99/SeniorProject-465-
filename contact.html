@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Final Project</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<header>
+    <nav><!-- Linked to other pages -->
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="aboutus.html">About Us</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <li><a href="signup.html">Sign Up</a></li>
+        </ul>
+    </nav>
+</header>
+
+<div class="main">
+    <div class="row">
+        <div class="column">
+          <div class="card">
+              <style>
+                  h2{
+                      text-align: center;
+                  }
+              </style>
+            <img src="images/use.png" alt="Isis" style="width:auto">
+            <div class="container"></div>
+              <h2>Isis E. Adams</h2>
+              <p><a>
+                My name is Isis Adams and I am the founder of DLP Riding Lessons. I am in the undergrad Information Technology program at Campbell University, set to graduate in May 2021. My business was named in honor of my late grandfather, Dencie Lee Proctor. Although I was not born in time to meet him, his legacy, through stories and recordings, has left a lasting impression on my life. My goal is to help you conqure your fear of horses or just learn how to ride. I pride myself in being the best trainer possible to make your experience pleasant. Below is a video explaining more on how my dream became reality. I hope to see you soon! 
+            </a></p>
+              <p class="title">CEO &amp; Founder</p>
+              <p>252.722.5303</p>
+              <p>ieadams0301@email.campbell.edu</p>
+            </div>
+          </div>
+        </div>
+    </div>
+        
+<style>
+/* profile boxes css */
+body{
+            background-image: linear-gradient(to left bottom, #89909b, #818cb2, #8785c5, #9e77cf, #bf62cd);
+            background-repeat: no-repeat;
+        }
+
+img{
+    margin-top: 100px;
+        display:block;
+        padding: 100px;
+}
+.main {
+  max-width: 800px;
+height: 700px;
+  margin: auto;
+}
+.column {
+    margin-top: 200px;
+  float: left;
+  width: 100%;
+  margin-bottom: 5px;
+  padding: 0 8px;
+}
+
+/* Display the columns below each other instead of side by side on small screens */
+@media screen and (max-width: 650px) {
+  .column {
+    width: 100%;
+    display: block;
+  }
+}
+
+/* Add some shadows to create effect */
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.container {
+  padding: 0 16px;
+}
+
+.container::after, .row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.title {
+  color:darkgrey;
+}
+footer{
+    font-style: italic;
+        position: fixed;
+        left: 0;
+        bottom: 0;
+        width: 100%;
+        background-color:none;
+        color: black;
+        text-align: right;
+}
+
+/*end profile css*/
+        </style>
+    
+<footer>IEA</footer>
+</body>
+</html>

@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Final Project</title>
+    <link rel="stylesheet" href="styles.css"> <!-- Linked to stylesheet -->
+</head>
+<style>
+    .content {
+      max-width: 500px;
+      margin: auto;
+    }
+    </style>
+<body>
+   
+<script SameSite="None; Secure" src="https://static.landbot.io/landbot-widget/landbot-widget-1.0.0.js"></script>
+    <script>
+      var myLandbot = new LandbotLivechat({
+        index: 'https://chats.landbot.io/v2/H-736895-PGZOH53ARDMPMR6L/index.html',
+      });
+</script>
+<img src="images/logo.png" alt="Riding Lessons Logo">
+<header>
+    <nav><!-- Linked to other pages -->
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="aboutus.html">About Us</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <li><a href="signup.html">Sign Up</a></li>
+        </ul>
+    </nav>
+    <style>
+        body{
+            background-image: linear-gradient(to left bottom, #89909b, #818cb2, #8785c5, #9e77cf, #bf62cd);
+        }
+    </style>
+</header>
+<section>
+  <!-- MAIN (Center website) -->
+<div class="main">
+
+    <h1>Meet a Few of Our Horses</h1>
+    <hr>   
+    <!-- photo Grid -->
+    <div class="row">
+      <div class="column">
+        <div class="content">
+          <img src="images/gold.jpg" alt="Gold Man" style="grid-auto-columns: auto;">
+        </div>
+      </div>
+      <div class="column">
+        <div class="content">
+          <img src="images/sam.jpg" alt="Samson" style="grid-auto-columns: auto;">
+        </div>
+      </div>
+      <div class="column">
+        <div class="content">
+          <img src="images/sammie.jpg" alt="Samson" style="grid-auto-columns: auto;" width="225px" height="300px">
+        </div>
+      </div>
+      <div class="column">
+        <div class="content">
+          <img src="images/nel.jpg" alt="Juice" style="grid-auto-columns: auto;" width="225px" height="300px">
+        </div>
+      </div>
+    </div>
+    <!-- END MAIN -->
+    </div>
+   <style>
+       * {
+  box-sizing: border-box;
+}
+/*css*/
+
+body {
+  
+  padding: 20px;
+  font-family: Arial;
+  cursor: default;
+}
+
+/* Center website */
+.main {
+  max-width: 1000px;
+  margin: auto;
+}
+
+h1 {
+  font-size: 50px;
+  word-break: break-all;
+  text-align: center;
+}
+
+.row {
+  margin: 170px -16px;
+}
+
+/* Add padding BETWEEN each column (if you want) */
+.row,
+.row > .column {
+  padding: 20px;
+}
+
+/* Create four equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 25%;
+  position: relative;
+}
+
+/* Clear floats after rows */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+  position: relative;
+}
+
+/* Content */
+.content {
+  background-color: white;
+  padding: 50px;
+  margin: auto;
+}
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 900px) {
+  .column {
+    width: 50%;
+  }
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 800px) {
+  .column {
+    width: 50%;
+
+  }
+}
+   </style>
+</section>
+<!-- table -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<h2>Check to see if your eligible for lessons</h2>
+<style>
+    h2{
+        text-align: center;
+    }
+</style>
+    <table>
+      <tr>
+        <th style="width:50%">Skills</th>
+        <th>Beginner</th>
+        <th>Semi-Pro</th>
+      </tr>
+      <tr>
+        <td>Ever been around a Horse?</td>
+        <td><i class="fa fa-remove"></i></td>
+        <td><i class="fa fa-check"></i></td>
+      </tr>
+      <tr>
+        <td>Ever been on a Horse?</td>
+        <td><i class="fa fa-remove"></i></td>
+        <td><i class="fa fa-check"></i></td>
+      </tr>
+      <tr>
+        <td>Want to learn more about riding?</td>
+        <td><i class="fa fa-check"></i></td>
+        <td><i class="fa fa-check"></i></td>
+      </tr>
+      <tr>
+        <td>Eligible?</td>
+        <td><i class="fa fa-check"></i></td>
+        <td><i class="fa fa-check"></i></td>
+      </tr>
+    </table>
+    <!-- end table -->
+    <footer>IEA</footer>
+</body>
+</html>
